@@ -1,0 +1,2 @@
+# shanajewelry.com
+shanajewelry.com
