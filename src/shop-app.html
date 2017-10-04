@@ -270,7 +270,8 @@
               <shop-tab name="About Shana Jewelry"><a href="/#/about">About</a></shop-tab>
               <!--<shop-tab name="Custom Made Jewelry"><a href="/#/custom-made-jewelry">Custom Made Jewelry</a></shop-tab>-->
               <shop-tab name="Contact Shana Jewelry"><a href="/#/contact">Contact</a></shop-tab>
-              <shop-tab name="Where to buy Shana Jewelry"><a href="/#/buy">Where to Buy</a></shop-tab>|
+              <shop-tab name="Where to buy Shana Jewelry"><a href="/#/buy">Shop Retail</a></shop-tab>
+              <shop-tab name="Buy Shana Jewelry Online"><a href="https://shopinde.com/shanajewelry">Shop Online</a></shop-tab>|
 
             <template is="dom-repeat" items="[[categories]]" as="category" initial-count="3">
               <shop-tab name="[[category.name]]" hidden$="[[category.hidden_from_nav]]">
@@ -311,7 +312,7 @@
       <shop-detail name="detail" route="[[subroute]]" offline="[[offline]]"></shop-detail>
 
       <shop-about name="about"></shop-about>
-      <shop-custom-made-jewelry name="custom-made-jewelry"></shop-custom-made-jewelry>
+      <!-- <shop-custom-made-jewelry name="custom-made-jewelry"></shop-custom-made-jewelry> -->
       <shop-contact name="contact"></shop-contact>
       <shop-buy name="buy"></shop-buy>
 
